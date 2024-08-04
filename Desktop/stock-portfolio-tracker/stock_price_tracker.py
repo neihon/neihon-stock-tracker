@@ -1,8 +1,8 @@
 import requests
 
-
+apiKey= ()
 def get_stock(entry):
-    url = (f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={entry}&apikey=N8X5BLVI3TW2S00K")
+    url = (f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={entry}&apikey={apiKey}")
     #url= (f"https://query1.finance.yahoo.com/v8/finance/chart/{entry}")
     url_data = requests.get(url)
     data = url_data.json()
