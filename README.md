@@ -1,0 +1,1 @@
+Checks (Outdated, but most recent from the API) information for the market open/close price of a selected stock. Has a simple GUI implemented, allowing users to add/remove/access information about stocks in their tracking list.
